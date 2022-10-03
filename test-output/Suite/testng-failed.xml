@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="pass123" value="kumarji"/>
+    <parameter name="user123" value="arunji"/>
+    <classes>
+      <class name="passparameter.fromtestng.xml.ParameterPassFromNgXml">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- passparameter.fromtestng.xml.ParameterPassFromNgXml -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49" started-at="2022-10-01T08:37:25Z" finished-at="2022-10-01T08:37:25Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Grouping.test1()[pri:0, instance:grouping.testng.Grouping@1ce92674]" name="test1" class="grouping.testng.Grouping"/>
+        <method signature="Grouping.test3()[pri:0, instance:grouping.testng.Grouping@1ce92674]" name="test3" class="grouping.testng.Grouping"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="49" started-at="2022-10-01T08:37:25Z" finished-at="2022-10-01T08:37:25Z">
+      <class name="grouping.testng.Grouping">
+        <test-method status="PASS" signature="test1()[pri:0, instance:grouping.testng.Grouping@1ce92674]" name="test1" duration-ms="16" started-at="2022-10-01T14:07:25Z" finished-at="2022-10-01T14:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:grouping.testng.Grouping@1ce92674]" name="test3" duration-ms="2" started-at="2022-10-01T14:07:25Z" finished-at="2022-10-01T14:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- grouping.testng.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

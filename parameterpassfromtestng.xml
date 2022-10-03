@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+   <parameter name="user123" value="arunji"></parameter>
+   <parameter name="pass123" value="kumarji"></parameter>
+    <classes>
+     <class name="passparameter.fromtestng.xml.ParameterPassFromNgXml"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
